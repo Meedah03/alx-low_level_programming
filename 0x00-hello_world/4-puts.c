@@ -1,5 +1,6 @@
 /**
- * my_function - Puts
+ * puts - puts programming is lik building a multilingual puzzle
+ * Return: 0
  */
 #include <stdio.h>
 
