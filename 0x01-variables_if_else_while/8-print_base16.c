@@ -13,17 +13,11 @@ int main(void)
 	U = '0';
 	L = 'a';
 
-	while (U < 10)
-	{
-		putchar(U);
-		U++;
-	}
+	for (U = 0; U < 10; U++)
+		putchar((U % 10) + '0');
 
-	while (L <= 'f')
-	{
+	for (L = 'a'; L <= 'f'; L++)
 		putchar(L);
-		L++;
-	}
 
 	putchar('\n');
 
