@@ -1,21 +1,20 @@
 #include <stdio.h>
 
 /**
- * Description: main - print numbers
+ * Description: main - print single digits
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char W;
+	int a = 0;
 
-	W = 0;
-	while (W < 9)
+	while (a <= 9)
 	{
-		putchar(W);
-	W++;
+		printf("%d", a);
+		a++;
 	}
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
