@@ -2,11 +2,12 @@
 
 /**
  * Description:add - add 2 int
- * @int: sum
+ * @a: int
+ * @b:int
  * Return: result
  */
 
-int add(int, int)
+int add(int a, int b)
 {
 	int a;
 	int b;
