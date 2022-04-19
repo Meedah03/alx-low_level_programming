@@ -1,3 +1,26 @@
 #include "main.h"
 
+/**
+ * Description: main - print 9 times table
+ * Return: 0
+ */
+
+void times_table(void)
+{
+	int a, b;
+
+	for (a = 0; a < 10; a++)
+	{
+		for (b = 0; b < 10; b++)
+		{
+			printf("%d", i * j);
+			if (j < 9)
+			{
+				printf(", ");
+			}
+		}
+		printf("\n");
+	}
+	return (0)
+}
 
