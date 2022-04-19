@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * Description: main - print 9 times table
+ * Function: times_table - Prints 9 Times_Table
+ *
  * Return: 0
  */
 
@@ -23,4 +24,3 @@ void times_table(void)
 	}
 	return (0)
 }
-
