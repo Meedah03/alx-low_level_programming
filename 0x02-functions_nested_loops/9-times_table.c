@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * Function: times_table - Prints 9 Times_Table
+ * times_table - Prints 9 Times_Table
  *
  * Return: 0
  */
 
-void times_table(void);
+void times_table(void)
 {
-	int a, b;
+	int a;
+	int b;
 
 	for (a = 0; a < 10; a++)
 	{
