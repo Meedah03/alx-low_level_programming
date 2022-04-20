@@ -2,21 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - reset to 98
- *
- * Return: 0
+ * reset_to_98 - takes a pointer to an int as parameter
+ * @n:The character to print
  */
 
 void reset_to_98(int *n)
 {
-	int n = 402;
-
-	_putchar(n);
-	_putchar('\n');
-
-	reset_to_98(&n);
-	_putchar(n);
-	_putchar('\n');
-
-	return (0);
+	*n = 98;
 }
