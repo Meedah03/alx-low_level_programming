@@ -8,6 +8,7 @@
  */
 
 void print_rev(char *s)
+void _putchar (char)
 {
 	int i = 0;
 	while (s[i] != 0)
