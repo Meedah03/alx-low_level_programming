@@ -3,11 +3,11 @@
 /**
  * _atoi - convert integer to string
  * @s: int
- * Return: s if success
+ * Return: i if success
  */
 int _atoi(char *s)
 {
 	int i = atoi(s);
 
-	return (s);
+	return (i);
 }
