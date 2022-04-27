@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * _strncat - concatenates s1 and s2
  * @dest: string
@@ -10,12 +10,7 @@
 
 char *_strncat(char *dest, char *src, int n);
 {
-	int i, j, len = 0;
+	strncat(dest, src);
 
-	for (j = 0; j != '\0'; j++)
-		len++;
-
-	for (i = 0; i < n && src[i] != '\0'; i++)
-		j++;
 	return (dest);
 }
