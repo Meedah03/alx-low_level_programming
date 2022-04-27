@@ -4,11 +4,13 @@
  * _strcmp - compare strings
  * @s1: str
  * @s2: str
- * Return: 0
+ * Return: i
  */
 int _strcmp(char *s1, char *s2)
 {
-	strcmp(s1, s2);
+	int i;
 
-	return (0);
+	i = strcmp(s1, s2);
+
+	return (i);
 }
