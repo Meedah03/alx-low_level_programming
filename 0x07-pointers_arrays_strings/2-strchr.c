@@ -2,8 +2,14 @@
 #include <string.h>
 /**
  * _strchr - locates caracter string
+ * @f: char
+ * Return: f
  */
 char *_strchr(char *s, char c)
 {
-	strchr(s, c);
+	char f;
+
+	f = strchr(s, c);
+
+	return (f); 
 }
