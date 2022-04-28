@@ -1,19 +1,16 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _memcpy - copy memory
  * @dest: character
  * @src: source
  * @n: int
- * Return nothing
+ * Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int i;
+	memcpy(dest, src, n);
 
-	for (i = 0; i < n; i++)
-	{
-		*dest[n] = *src[n];
-	}
 	return (dest);
 }
