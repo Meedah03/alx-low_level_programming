@@ -2,14 +2,13 @@
 #include <string.h>
 /**
  * _strspn - len of prefix substring
- * @i: int
- * return: i
+ * @s: char
+ * @accept: char
+ * Return: i
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i;
-
-	i = strspn (s, accept);
+	unsigned int i = strspn(s, accept);
 
 	return (i);
 }
