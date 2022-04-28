@@ -4,7 +4,7 @@
  * _memset - function that reset memory
  *
  * @s: memory area to return
- * @b: constant bytes
+ * @b: conss
  * @n: size of bytes
  * Return: Nothing
  */
